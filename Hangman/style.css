@@ -1,0 +1,86 @@
+
+body {
+	font-family:sans-serif;
+	text-align: center;
+	background:white; 
+	color: #5f6268;
+}
+
+h1 {
+	font-size: 45px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+#icon {
+	height: 100px;
+	display: block;
+	margin: -10px auto;
+}
+
+img {
+	display: block;
+	margin: 20px auto;
+}
+
+.used {
+	border: orangered;
+	background: orangered;
+	color:whitesmoke;
+}
+
+#container > div {
+	color:black; 
+	border-bottom: 1px solid black; 
+	background: white; 
+	width: 45px;
+	height: 45px;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-right: 5px;
+	display: inline-block;
+	line-height: 45px;
+}
+
+button {
+	color:black; 
+	border: 1px solid black; 
+	border-radius: 4px;
+	background:whitesmoke;
+	width: 45px;
+	height: 45px;
+	font-size: 14px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+  	-webkit-transform: perspective(1px) translateZ(0);
+  	transform: perspective(1px) translateZ(0);
+  	-webkit-transition-duration: 0.5s;
+  	transition-duration: 0.5s;
+  	-webkit-transition-property: transform;
+	transition-property: transform;
+}
+
+button:hover {
+	border:orangered;
+	background:orangered;
+	cursor: pointer;
+	color:whitesmoke; 
+	text-transform: uppercase;
+  	-webkit-transform: scale(1.1);
+  	transform: scale(1.1);
+}
+
+button:focus {
+	outline:0;
+}
+
+
+.play-again {
+	margin-top: 20px;
+	font-family: monospace;
+	width: 150px;
+	height: 45px;
+	background:whitesmoke; /*green*/
+	border: 1px solid gray; /*orange*/
+}
